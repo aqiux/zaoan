@@ -44,8 +44,8 @@ def get_random_color():
   return "#%06x" % random.randint(0, 0xFFFFFF)
 
 def get_today():
-  todays=datetime,date.today()
-  todayss=datetime.strptime(str(datetime.today()),"%Y-%m-%d")
+  todays=str(datetime,date.today())
+  todayss=datetime.strptime(str(todays),"%Y-%m-%d")
   return todayss
 
 client = WeChatClient(app_id, app_secret)
