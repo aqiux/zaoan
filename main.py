@@ -44,7 +44,7 @@ def get_random_color():
   return "#%06x" % random.randint(0, 0xFFFFFF)
 
 def get_today():
-  todays=datetime.today()
+  todays=datetime,date.today()
   todayss=datetime.strptime(str(datetime.today()),"%Y-%m-%d")
   return todayss
 
